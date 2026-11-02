@@ -32,7 +32,7 @@ print("\n--- 2. 第三方模块 requests 基础 ---")
 # （需在终端执行 pip install requests）
 # 任务 4：用 requests.get 访问 https://api.github.com，获取 status_code 和 JSON 中的 current_user_url。
 
-response = requests.get("https://api.github.com")
+response = requests.get("https://api.github.com", verify=False)
 
 print(f"任务4 - 状态码 (status_code): {response.status_code}")
 
