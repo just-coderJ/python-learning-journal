@@ -44,7 +44,6 @@ print("\n--- 2. SQLAlchemy ORM 快速体验 ---")
 
 Base = declarative_base()
 
-
 class UserORM(Base):
     __tablename__ = 'user_orm'  # 指定表名
 
