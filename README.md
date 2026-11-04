@@ -43,7 +43,7 @@ python-learning-journal/
 | 2026-10-30 | 面向对象 | 廖雪峰：OOP | 类与实例、`self` 原理、访问限制、继承多态 | [02_advanced](./02_advanced/) | ⚪ |
 | 2026-11-01 | 工程基础 | 廖雪峰：IO、异常、正则 | 文件读写、`json` 序列化、`re` 正则匹配、异常捕获 | [02_advanced](./02_advanced/) | ⚪ |
 | 2026-11-02 | 并发编程 | 廖雪峰：进程与线程 | 多线程 Lock、`asyncio` 协程初探 | [02_advanced](./02_advanced/) | ⚪ |
-| 2026-11-05 | Web后端 | FastAPI 官方文档 | 路由搭建、Pydantic 数据校验、依赖注入 | [05_web_api](./05_web_api/) | ⚪ |
+| 2026-11-05 | Web后端 | FastAPI 官方文档 | FastApi官方demo、短链项目、爬虫项目等等 | [05_web_api](./05_web_api/) | 🟡 进行中|
 | 2026-11-10 | AI探索 | LangChain 官方文档 | 大模型 API 接入、Prompt 模板测试、Chain 构建 | [06_ai_agent](./06_ai_agent/) | ⚪ |
 
 > **状态图例**： ⚪ 未开始 | 🟡 进行中 | 🟢 已完成
