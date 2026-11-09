@@ -44,7 +44,7 @@ python-learning-journal/
 | 2026-11-01 | 工程基础 | 廖雪峰：IO、异常、正则 | 文件读写、`json` 序列化、`re` 正则匹配、异常捕获 | [02_advanced](./02_advanced/) | 🟢 |
 | 2026-11-02 | 并发编程 | 廖雪峰：进程与线程 | 多线程 Lock、`asyncio` 协程初探 | [02_advanced](./02_advanced/) | 🟢 |
 | 2026-11-05 | Web后端 | FastAPI 官方文档 | FastApi官方demo、短链项目、爬虫项目等等 | [05_web_api](./05_web_api/) | 🟡 进行中|
-| 2026-11-15 | AI探索 | LangChain 官方文档 | 大模型 API 接入、Prompt 模板测试、Chain 构建 | [06_ai_agent](./06_ai_agent/) | ⚪ |
+| 2026-11-15 | AI探索 | LangChain、SpringAI 官方文档 | 大模型 API 接入、Prompt 模板测试、Chain 构建 | [06_ai_agent](./06_ai_agent/) | ⚪ |
 
 > **状态图例**： ⚪ 未开始 | 🟡 进行中 | 🟢 已完成
 > *注：01 和 02 目录主要沉淀基础教程代码，后续实战项目将分散在 03-06 目录中。*
