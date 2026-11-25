@@ -10,6 +10,10 @@ from collections import namedtuple, Counter, deque
 from datetime import datetime, timedelta
 import requests
 
+# 代码干净 忽略url警告
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
 print("--- 1. 内建 collections / datetime ---")
 # 任务 1：使用 namedtuple 创建 Point 坐标类。
 # 任务 2：使用 Counter 统计字符串词频并打印最常见的元素。
