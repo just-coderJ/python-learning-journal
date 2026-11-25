@@ -14,9 +14,11 @@ print("--- 1. 基础匹配与模式 ---")
 # 任务 2：用 re.split 切分 'a, b;; c  d'，去除所有空串。
 
 phone_str = '010-12345678'
-match_obj = re.match(r'^((\d{3}) - (\d{8}))$', phone_str)
-search_obj = re.search(r'^((\d{3}) - (\d{8}))$', phone_str)
-find_obj = re.findall(r'^((\d{3}) - (\d{8}))$', phone_str)
+match_obj = re.match(r'^((\d{3})-(\d{8}))$', phone_str)
+search_obj = re.search(r'^((\d{3})-(\d{8}))$', phone_str)
+find_obj = re.findall(r'^((\d{3})-(\d{8}))$', phone_str)
+
+# search：扫描整个字符串，找到第一个匹配项就停止。 match：从字符串的最开头匹配。 findall：扫描字符串，找到所有满足的匹配项。
 
 if match_obj:
     print(f"任务1 - 验证成功: {match_obj.group(0)}")
@@ -29,7 +31,7 @@ else:
     print("任务1 - 全局验证失败")
 
 if find_obj:
-    print(f"任务1 - 全部验证成功: {find_obj.group(0)}")
+    print(f"任务1 - 全部验证成功: {find_obj[0]}")
 else:
     print("任务1 - 全部验证失败")
 
@@ -60,7 +62,6 @@ if extract_body:
 print("\n--- 3. 编译与分组提取 ---")
 # 任务 5：用 re.compile(r'(\d{4})-(\d{2})-(\d{2})') 匹配日期，提取年月日。
 # 任务 6：用 re.sub 将多个连续空格替换为单个空格。
-
 
 date_pattern = re.compile(r'(\d{4})-(\d{2})-(\d{2})')
 date_str = '2026-10-31'
