@@ -7,6 +7,7 @@
 =========================================================
 """
 import asyncio
+import time
 
 print("--- 1. 协程与 await 挂起 ---")
 async def fetch(url):
